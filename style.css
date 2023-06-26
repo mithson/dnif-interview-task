@@ -70,6 +70,15 @@ body {
     /* background-color: red; */
     border-radius: 4px;
 }
+
+@media (max-width: 450px) {
+    .info > button {
+        margin-top:1rem;
+        /* background-color: ; */
+    }
+}
+
+  
   .cta-button {
     margin:0;
     background-color: blue;
@@ -559,6 +568,13 @@ ul {
         flex-wrap: wrap;
     }
 }
+@media (min-width: 768px) and (max-width: 1300px) {
+    .info > button {
+        margin-top:1rem;    
+      /* background-color: red; */
+    }
+  }
+
 
 .pad-right {
     background: red;
